@@ -1,0 +1,290 @@
+in the name of ALLAH ALMIGHTY
+
+video 2:
+
+biometric
+
+optical character recognition
+
+extracting text from the images
+
+spam filtering
+
+tagging
+
+medical image processing
+
+gesture recognition
+
+recommender system
+
+signal analysis
+
+raw material will be identified by hitting signals
+
+churn prediction
+
+if a user buy 1 thing
+
+max shopping
+
+super marts data
+
+if someone buy milk cheese, there is a prob that he will buy bread as well if u place it a the shopping counter
+
+typical machine learning system:
+
+-identify problem
+
+-data collection and feature extraction
+
+-model training
+
+-evaluation
+
+-deployment
+
+video 3:
+
+how does machine learning work
+
+input data
+
+analyze data
+
+find patterns
+
+prediction
+
+stores the feedback
+
+in machine learning---machine do learning
+
+computer donot retain thinks....we can do backtracking to solve this issue
+
+in machine learning we have 3 things:
+
+-problem solving
+
+-dataset
+
+-problem solving (learning)
+
+-dataset (supervised,semi-supervised)
+
+-labels
+
+bagging and boosting:
+
+using multiple models in semi-supervised learning
+
+dataset:
+
+collection of data by which we can extract useful information
+
+it has features/attributes
+
+there will be some key attributes
+
+they'll help in catching patterns
+
+testing is not done on the same on which our model is trained. We give training data to predict labels and then match the results with the real results
+
+use suitable model for suitable problem
+
+we choose the model based on the data given (dataset)
+
+at evaluation step our model is trained now, we will go to prediction
+
+we use formula of True Positive and True negative to check accuracy
+
+first two are machine parts 
+
+last two are human parts
+
+precison: how many are correct TP+TN
+
+accuracy: TP+TN+FP+FN
+
+overfitting:
+
+andaza kharab ho
+
+it is trained on too much, that is give random results
+
+underfitting: 0 precision 0 accuracy
+
+less data it will cause underfitting
+
+confusion matrix:
+
+	T	F
+T	TP	TN
+
+F	FP	FN
+
+based on this confusion matrix we calculate the accuracy and precision
+
+types of machine learning:
+
+supervised
+
+unsupervised
+
+reinforcement
+
+some labels given while some are not given so we will try to predict those labels by using the labels given
+
+table filling is done is reinforcement learning using bellmen equation. (it is actualling dataset filling) with result is stored in dataset and dataset is prepared in backend in dataset
+
+in np hard problems, we go to genetic algorithms
+
+classification 
+
+regression: timeseries
+
+continous data
+
+we make predictions on the continuous data
+
+continous data mean it is continuously changing
+
+different b/w logistic and linear
+
+linear->linear line
+
+logistic->line can be in any shape
+
+(sudden changes can occur)
+
+e.g:
+
+bitcoin value can rise and drop all of a sudden. In order to predict values in such cases we use logistic regression instead of linear
+
+classification:
+
+it make predictions on the static data. Which is not continuous, mean it is not changing.
+
+based on some equation, it is classifying into 2 classes
+
+classes are yes|no or true|false or 0|1
+
+unsupervisesd:
+
+groups are made in unsupervised learning
+
+this/next point belongs to which group
+
+reinforcement learning is used in gaming
+
+overfitting and underfitting example given on register by bob
+
+support: 
+
+how much times a thing will come with other entries
+
+how much time cheese will come with milk and bread 
+
+how much time things will come together
+
+conditional probability
+
+confidence:
+
+with a group how much time a single enty will come
+
+e.g with a group of bread,cheese. how much time milk will come with this group. this is called as conditional probability
+
+support:
+
+which items should grouped. 
+
+e.g should we group milk bread or cheese
+
+this is called as support
+
+min support,max support,min confidence,max confidences
+
+these are threshold values
+
+find trasaction whose min support 50 percent and min confidence 70 percent
+
+when we find min support max support and make decision on basis of this, then this is called as aprori algorithm
+
+before dataset, we've defined support as 50 percent and confidence on 70 percent. this is determine on past experiences and nature of the problem
+
+confidence:
+
+konsy elements k sath konsay new elements ko rakhna hy
+
+
+video 7:
+
+time series data: has two things
+
+trade analysis
+
+similarity check
+
+time series data: data in continous form or data that is update
+
+models that are applied on this type of data. They give the concept of timeseries data e.g forex, blast (predicting casualities). At backend of timeseries data. Regression is working
+
+regression:
+
+-dependent variable
+
+-independent variable
+
+corelation-relation between two variables 
+
+it is denoted by b
+
+it rely b/w 1 and -1 so that we optimize the value by fixing it in this range 
+
+line that is on the trend is known as regression line
+
+-1 to 1 limit show that regression line will lie in this range
+
+if +2 to -2 then regression line will remain in this range
+
+by this we will check the trend and on trend we will draw the regression line
+
+the value of the trend recieve e.g 1, we will draw regression line on this point and we will do +2 and -2 to this line and we will get upper trend line and lower trend line from it. we decide ourself this value of 2. we can also +4 and -4 to the regression line
+
+bx
+
+x is dependent and x is independent
+
+----------in the name of ALLAH ALMIGHTY
+
+10:00-12:10 35 min
+
+12:10-1:10 1 hour 
+
+1 hour 35 min
+
+1:10-3:10 2 hour
+
+3 hour 35 min
+
+4:00-5:00 40 min
+
+4 hour 15
+
+5:45-6:45-45 min
+
+6:55-7:55-1 hour
+
+6 hour
+
+8:15-9:15-50 min
+
+9:15-10:15-1 hour
+
+10:15-11:15-1 hour
+
+11:15-3:15- 3 hour 35 min
+
+12 hour 25 min 
+
